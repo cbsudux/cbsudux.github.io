@@ -24,22 +24,31 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
+links:
+  - title: About
+    url: /about
+  - title: Blog
+    url: /blog
+  - title: Projects
+    url: /projects
+  - title: Papers
+    url: /publications
+  - title: Talks
+    url: /talks
+
 # Build settings
+future:      true
+highlighter: pygments
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
 
 
-# default front matter
 
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-        layout: 'post'
-
+sass:
+  sass_dir: assets/sass
+  style: compressed
 
 
 
