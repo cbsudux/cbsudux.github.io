@@ -43,6 +43,8 @@ plugins:
   - jekyll-feed
 
 
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
+
 
 sass:
   sass_dir: assets/sass
