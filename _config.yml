@@ -36,11 +36,19 @@ links:
 
 # Build settings
 future:      true
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  # - jekyll-feed
+  # - jekyll-redirect-from
+  # - jekyll-seo-tag
+  # - jekyll-sitemap
+  # - jekyll-avatar
+  # - jemoji
+  # - jekyll-mentions
+  # - jekyll-include-cache
 
 
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
